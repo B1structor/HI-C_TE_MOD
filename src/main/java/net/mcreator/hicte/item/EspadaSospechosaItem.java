@@ -42,7 +42,7 @@ public class EspadaSospechosaItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(HicteModTabs.TAB_MOD));
+		}, 3, -3f, new Item.Properties().tab(HicteModTabs.TAB_HI_C_TE_MOD));
 	}
 
 	@Override

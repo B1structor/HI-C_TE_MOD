@@ -14,7 +14,7 @@ import java.util.List;
 
 public class HICTESOSPECHOSOItem extends Item {
 	public HICTESOSPECHOSOItem() {
-		super(new Item.Properties().tab(HicteModTabs.TAB_MOD).stacksTo(64).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(HicteModTabs.TAB_HI_C_TE_MOD).stacksTo(64).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override

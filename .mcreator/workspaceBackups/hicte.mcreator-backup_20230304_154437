@@ -37,7 +37,7 @@
           "src/main/resources/data/hicte/recipes/carton_recipe.json"
         ]
       },
-      "path": "~/Items_Recipes"
+      "path": "~/Items_for_Craft/Items_Recipes"
     },
     {
       "name": "Plastico",
@@ -66,7 +66,7 @@
           "src/main/resources/data/hicte/recipes/plastico_recipe.json"
         ]
       },
-      "path": "~/Items_Recipes"
+      "path": "~/Items_for_Craft/Items_Recipes"
     },
     {
       "name": "HICTEvacio",
@@ -95,7 +95,7 @@
           "src/main/resources/data/hicte/recipes/hictevacio_recipe.json"
         ]
       },
-      "path": "~/Items_Recipes"
+      "path": "~/Items_for_Craft/Items_Recipes"
     },
     {
       "name": "HICTE",
@@ -124,7 +124,7 @@
           "src/main/java/net/mcreator/hicte/recipes/brewing/HICTERecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Items_Recipes"
+      "path": "~/Items_for_Craft/Items_Recipes"
     },
     {
       "name": "HICTEPACK",
@@ -153,7 +153,7 @@
           "src/main/resources/data/hicte/recipes/hictepack_recipe.json"
         ]
       },
-      "path": "~/Items_Recipes"
+      "path": "~/Items_for_Craft/Items_Recipes"
     },
     {
       "name": "Botella",
@@ -182,7 +182,7 @@
           "src/main/resources/data/hicte/recipes/botella_recipe.json"
         ]
       },
-      "path": "~/Items_Recipes"
+      "path": "~/Items_for_Craft/Items_Recipes"
     },
     {
       "name": "Botellaconlogo",
@@ -211,7 +211,7 @@
           "src/main/resources/data/hicte/recipes/botellaconlogo_recipe.json"
         ]
       },
-      "path": "~/Items_Recipes"
+      "path": "~/Items_for_Craft/Items_Recipes"
     },
     {
       "name": "ElHICTE",
@@ -240,7 +240,7 @@
           "src/main/java/net/mcreator/hicte/recipes/brewing/ELHICTERecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Items_Recipes"
+      "path": "~/Items_for_Craft/Items_Recipes"
     },
     {
       "name": "HICTEPlayerFinishesUsingItem",
@@ -323,21 +323,6 @@
       "path": "~/Tools/Tools_Script"
     },
     {
-      "name": "Espadadelimon",
-      "type": "tool",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "espadadelimon",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hicte/models/item/espadadelimon.json",
-          "src/main/java/net/mcreator/hicte/item/EspadadelimonItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
       "name": "HICTESOSPECHOSO",
       "type": "item",
       "sortid": 22,
@@ -364,7 +349,7 @@
           "src/main/java/net/mcreator/hicte/recipes/brewing/SospechosoRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Items_Recipes"
+      "path": "~/Items_for_Craft/Items_Recipes"
     },
     {
       "name": "EspadadelimonRecipe",
@@ -378,7 +363,22 @@
           "src/main/resources/data/hicte/recipes/espadadelimon_recipe.json"
         ]
       },
-      "path": "~/Items_Recipes"
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "EspadaSospechosa",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espada_sospechosa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/espada_sospechosa.json",
+          "src/main/java/net/mcreator/hicte/item/EspadaSospechosaItem.java"
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -393,8 +393,8 @@
       "item.hicte.carton": "Carton",
       "item.hicte.botella": "Botella",
       "item.hicte.el_hicte": "El HI-C TE",
+      "item.hicte.espada_sospechosa": "Espada Sospechosa",
       "item.hicte.hictesospechoso": "HI-C TE sospechoso",
-      "item.hicte.espadadelimon": "Espada de limon",
       "item.hicte.hict_evacio": "HI-C TE vacio"
     }
   },
@@ -403,11 +403,12 @@
     "children": [
       {
         "name": "Items_for_Craft",
-        "children": []
-      },
-      {
-        "name": "Items_Recipes",
-        "children": []
+        "children": [
+          {
+            "name": "Items_Recipes",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Items_with_utilities",

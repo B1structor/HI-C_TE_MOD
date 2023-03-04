@@ -1,8 +1,8 @@
 {
-  "itemGroup.tabmod": "HI-C TE",
   "item.hicte.hictepack": "HI-C TE PACK",
   "item.hicte.botellaconlogo": "Botella con logo",
   "item.hicte.hicte": "HI-C TE",
+  "itemGroup.tabhi_c_te_mod": "HI-C TE",
   "item.hicte.plastico": "Plastico",
   "item.hicte.carton": "Carton",
   "item.hicte.botella": "Botella",

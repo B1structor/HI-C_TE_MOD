@@ -20,7 +20,7 @@ import java.util.List;
 
 public class ElHICTEItem extends Item {
 	public ElHICTEItem() {
-		super(new Item.Properties().tab(HicteModTabs.TAB_MOD).stacksTo(6).fireResistant().rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(20).saturationMod(15f).alwaysEat()
+		super(new Item.Properties().tab(HicteModTabs.TAB_HI_C_TE_MOD).stacksTo(6).fireResistant().rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(20).saturationMod(15f).alwaysEat()
 
 				.build()));
 	}

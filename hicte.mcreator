@@ -3,9 +3,10 @@
     {
       "name": "MOD",
       "type": "tab",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mod",
+      "registry_name": "hi_c_te_mod",
       "metadata": {
         "files": []
       }
@@ -28,7 +29,7 @@
     {
       "name": "CartonRecipe",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carton_recipe",
@@ -57,7 +58,7 @@
     {
       "name": "PlasticoRecipe",
       "type": "recipe",
-      "sortid": 3,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastico_recipe",
@@ -71,7 +72,7 @@
     {
       "name": "HICTEvacio",
       "type": "item",
-      "sortid": 5,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hict_evacio",
@@ -86,7 +87,7 @@
     {
       "name": "HICTEVACIORecipe",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hictevacio_recipe",
@@ -115,7 +116,7 @@
     {
       "name": "HICTERecipe",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hicte_recipe",
@@ -129,7 +130,7 @@
     {
       "name": "HICTEPACK",
       "type": "item",
-      "sortid": 9,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hictepack",
@@ -144,7 +145,7 @@
     {
       "name": "HICTEPACKRecipe",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hictepack_recipe",
@@ -158,7 +159,7 @@
     {
       "name": "Botella",
       "type": "item",
-      "sortid": 11,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "botella",
@@ -173,7 +174,7 @@
     {
       "name": "BotellaRecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "botella_recipe",
@@ -187,7 +188,7 @@
     {
       "name": "Botellaconlogo",
       "type": "item",
-      "sortid": 13,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "botellaconlogo",
@@ -202,7 +203,7 @@
     {
       "name": "BotellaconlogoRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "botellaconlogo_recipe",
@@ -216,7 +217,7 @@
     {
       "name": "ElHICTE",
       "type": "item",
-      "sortid": 15,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "el_hicte",
@@ -231,7 +232,7 @@
     {
       "name": "ELHICTERecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elhicte_recipe",
@@ -245,7 +246,7 @@
     {
       "name": "HICTEPlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hicte_player_finishes_using_item",
@@ -265,7 +266,7 @@
     {
       "name": "HICTEPACKPlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 17,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hictepack_player_finishes_using_item",
@@ -285,7 +286,7 @@
     {
       "name": "ElHICTEPlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "el_hicte_player_finishes_using_item",
@@ -305,7 +306,7 @@
     {
       "name": "EspadadelimonLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 20,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "espadadelimon_living_entity_is_hit_with_tool",
@@ -325,7 +326,7 @@
     {
       "name": "HICTESOSPECHOSO",
       "type": "item",
-      "sortid": 22,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hictesospechoso",
@@ -340,7 +341,7 @@
     {
       "name": "SospechosoRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sospechoso_recipe",
@@ -354,7 +355,7 @@
     {
       "name": "EspadadelimonRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "espadadelimon_recipe",
@@ -368,7 +369,7 @@
     {
       "name": "EspadaSospechosa",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "espada_sospechosa",
@@ -385,10 +386,10 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabmod": "HI-C TE",
       "item.hicte.hictepack": "HI-C TE PACK",
       "item.hicte.botellaconlogo": "Botella con logo",
       "item.hicte.hicte": "HI-C TE",
+      "itemGroup.tabhi_c_te_mod": "HI-C TE",
       "item.hicte.plastico": "Plastico",
       "item.hicte.carton": "Carton",
       "item.hicte.botella": "Botella",

@@ -14,7 +14,7 @@ import java.util.List;
 
 public class CartonItem extends Item {
 	public CartonItem() {
-		super(new Item.Properties().tab(HicteModTabs.TAB_MOD).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(HicteModTabs.TAB_HI_C_TE_MOD).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override

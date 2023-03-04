@@ -20,7 +20,7 @@ import java.util.List;
 
 public class HICTEPACKItem extends Item {
 	public HICTEPACKItem() {
-		super(new Item.Properties().tab(HicteModTabs.TAB_MOD).stacksTo(12).fireResistant().rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(15).saturationMod(10f).alwaysEat()
+		super(new Item.Properties().tab(HicteModTabs.TAB_HI_C_TE_MOD).stacksTo(12).fireResistant().rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(15).saturationMod(10f).alwaysEat()
 
 				.build()));
 	}
