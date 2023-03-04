@@ -323,21 +323,6 @@
       "path": "~/Tools/Tools_Script"
     },
     {
-      "name": "Espadadelimon",
-      "type": "tool",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "espadadelimon",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hicte/models/item/espadadelimon.json",
-          "src/main/java/net/mcreator/hicte/item/EspadadelimonItem.java"
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
       "name": "HICTESOSPECHOSO",
       "type": "item",
       "sortid": 22,
@@ -379,6 +364,21 @@
         ]
       },
       "path": "~/Items_Recipes"
+    },
+    {
+      "name": "EspadaSospechosa",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espada_sospechosa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/espada_sospechosa.json",
+          "src/main/java/net/mcreator/hicte/item/EspadaSospechosaItem.java"
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -393,8 +393,8 @@
       "item.hicte.carton": "Carton",
       "item.hicte.botella": "Botella",
       "item.hicte.el_hicte": "El HI-C TE",
+      "item.hicte.espada_sospechosa": "Espada Sospechosa",
       "item.hicte.hictesospechoso": "HI-C TE sospechoso",
-      "item.hicte.espadadelimon": "Espada de limon",
       "item.hicte.hict_evacio": "HI-C TE vacio"
     }
   },
