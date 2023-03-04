@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "CUSTOM:HICTEvacio"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.SUGAR"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:HICTE"
+    },
+    "name": "hicte_recipe",
+    "namespace": "mod"
+  }
+}

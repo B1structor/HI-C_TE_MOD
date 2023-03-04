@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hicte:plastico"
+    },
+    "1": {
+      "item": "minecraft:gold_nugget"
+    },
+    "2": {
+      "item": "hicte:plastico"
+    },
+    "3": {
+      "item": "hicte:plastico"
+    },
+    "4": {
+      "item": "minecraft:glass_bottle"
+    },
+    "5": {
+      "item": "hicte:plastico"
+    },
+    "6": {
+      "item": "hicte:plastico"
+    },
+    "7": {
+      "item": "hicte:plastico"
+    },
+    "8": {
+      "item": "hicte:plastico"
+    }
+  },
+  "result": {
+    "item": "hicte:botella",
+    "count": 1
+  }
+}

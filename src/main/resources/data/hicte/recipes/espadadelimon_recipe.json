@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_block"
+  },
+  "addition": {
+    "item": "hicte:hictesospechoso"
+  },
+  "result": {
+    "item": "hicte:deleted_mod_element"
+  }
+}

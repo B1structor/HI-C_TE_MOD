@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Plastico"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "CUSTOM:Plastico"
+      },
+      {
+        "value": "CUSTOM:Plastico"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": "CUSTOM:Plastico"
+      },
+      {
+        "value": "CUSTOM:Plastico"
+      },
+      {
+        "value": "CUSTOM:Plastico"
+      },
+      {
+        "value": "CUSTOM:Plastico"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Botella"
+    },
+    "name": "botella_recipe",
+    "namespace": "mod"
+  }
+}

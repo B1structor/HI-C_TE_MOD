@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lemonsword",
+    "customModelName": "Normal",
+    "name": "Espada Sospechosa",
+    "specialInfo": [
+      "Cuando la toco siento que mi azúcar se regula",
+      "\"Mejor lo mantengo lejos del HI-C TE\""
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:MOD"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 1,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "EspadadelimonLivingEntityIsHitWithTool"
+    }
+  }
+}

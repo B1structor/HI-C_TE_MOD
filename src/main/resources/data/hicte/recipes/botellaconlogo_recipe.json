@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:paper"
+    },
+    "1": {
+      "item": "hicte:botella"
+    },
+    "2": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "hicte:botellaconlogo",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.DRIED_KELP_BLOCK"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Plastico"
+    },
+    "name": "plastico_recipe",
+    "namespace": "mod"
+  }
+}

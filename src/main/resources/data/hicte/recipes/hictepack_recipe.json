@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hicte:plastico"
+    },
+    "1": {
+      "item": "hicte:plastico"
+    },
+    "2": {
+      "item": "hicte:plastico"
+    },
+    "3": {
+      "item": "hicte:hicte"
+    },
+    "4": {
+      "item": "hicte:hicte"
+    },
+    "5": {
+      "item": "hicte:hicte"
+    },
+    "6": {
+      "item": "hicte:carton"
+    },
+    "7": {
+      "item": "hicte:carton"
+    },
+    "8": {
+      "item": "hicte:carton"
+    }
+  },
+  "result": {
+    "item": "hicte:hictepack",
+    "count": 1
+  }
+}
