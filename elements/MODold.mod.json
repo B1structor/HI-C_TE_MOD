@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "HI-C TE old",
+    "icon": {
+      "value": "CUSTOM:ELHICTEold"
+    },
+    "showSearch": false
+  }
+}

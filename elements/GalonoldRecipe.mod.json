@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Plasticoold"
+      },
+      {
+        "value": "Items.GOLDEN_HELMET"
+      },
+      {
+        "value": "CUSTOM:Plasticoold"
+      },
+      {
+        "value": "CUSTOM:Plasticoold"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": "CUSTOM:Plasticoold"
+      },
+      {
+        "value": "CUSTOM:Plasticoold"
+      },
+      {
+        "value": "CUSTOM:Plasticoold"
+      },
+      {
+        "value": "CUSTOM:Plasticoold"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Galonold"
+    },
+    "name": "galonold_recipe",
+    "namespace": "mod"
+  }
+}

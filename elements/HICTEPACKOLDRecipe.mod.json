@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Plasticoold"
+      },
+      {
+        "value": "CUSTOM:Plasticoold"
+      },
+      {
+        "value": "CUSTOM:Plasticoold"
+      },
+      {
+        "value": "CUSTOM:HICTEold"
+      },
+      {
+        "value": "CUSTOM:HICTEold"
+      },
+      {
+        "value": "CUSTOM:HICTEold"
+      },
+      {
+        "value": "CUSTOM:Cartonold"
+      },
+      {
+        "value": "CUSTOM:Cartonold"
+      },
+      {
+        "value": "CUSTOM:Cartonold"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HICTEPACKold"
+    },
+    "name": "hictepackold_recipe",
+    "namespace": "mod"
+  }
+}

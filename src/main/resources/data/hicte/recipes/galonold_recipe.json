@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hicte:plasticoold"
+    },
+    "1": {
+      "item": "minecraft:golden_helmet"
+    },
+    "2": {
+      "item": "hicte:plasticoold"
+    },
+    "3": {
+      "item": "hicte:plasticoold"
+    },
+    "4": {
+      "item": "minecraft:glass_bottle"
+    },
+    "5": {
+      "item": "hicte:plasticoold"
+    },
+    "6": {
+      "item": "hicte:plasticoold"
+    },
+    "7": {
+      "item": "hicte:plasticoold"
+    },
+    "8": {
+      "item": "hicte:plasticoold"
+    }
+  },
+  "result": {
+    "item": "hicte:galonold",
+    "count": 1
+  }
+}

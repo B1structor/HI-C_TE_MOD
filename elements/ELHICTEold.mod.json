@@ -1,0 +1,48 @@
+{
+  "_fv": 39,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "3",
+    "customModelName": "Normal",
+    "name": "EL HI-C TE old",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:MODold"
+    },
+    "stackSize": 6,
+    "enchantability": 0,
+    "useDuration": 64,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Me causa nostalgia de una epoca mejor",
+      "\"Lua no veas esto\""
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "ELHICTEoldPlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 20,
+    "saturation": 15.3,
+    "eatResultItem": {
+      "value": "CUSTOM:Galonold"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

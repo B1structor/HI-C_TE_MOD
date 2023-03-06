@@ -1,0 +1,48 @@
+{
+  "_fv": 39,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "9",
+    "customModelName": "Normal",
+    "name": "HI-C TE PACK old",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:MODold"
+    },
+    "stackSize": 12,
+    "enchantability": 0,
+    "useDuration": 45,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Me causa nostalgia de una epoca mejor",
+      "\"Lua no veas esto\""
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "HICTEPACKoldPlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 15,
+    "saturation": 10.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "drink"
+  }
+}

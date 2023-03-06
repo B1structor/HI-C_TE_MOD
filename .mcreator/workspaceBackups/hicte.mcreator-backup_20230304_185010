@@ -1,0 +1,754 @@
+{
+  "mod_elements": [
+    {
+      "name": "MOD",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Carton",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carton",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/carton.json",
+          "src/main/java/net/mcreator/hicte/item/CartonItem.java"
+        ]
+      },
+      "path": "~/Items_for_Craft"
+    },
+    {
+      "name": "CartonRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carton_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/carton_recipe.json"
+        ]
+      },
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "Plastico",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastico",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/plastico.json",
+          "src/main/java/net/mcreator/hicte/item/PlasticoItem.java"
+        ]
+      },
+      "path": "~/Items_for_Craft"
+    },
+    {
+      "name": "PlasticoRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastico_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/plastico_recipe.json"
+        ]
+      },
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "HICTEvacio",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hict_evacio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HICTEvacioItem.java",
+          "src/main/resources/assets/hicte/models/item/hict_evacio.json"
+        ]
+      },
+      "path": "~/Items_for_Craft"
+    },
+    {
+      "name": "HICTEVACIORecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hictevacio_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/hictevacio_recipe.json"
+        ]
+      },
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "HICTE",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hicte",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HICTEItem.java",
+          "src/main/resources/assets/hicte/models/item/hicte.json"
+        ]
+      },
+      "path": "~/Items_with_utilities"
+    },
+    {
+      "name": "HICTERecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hicte_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/recipes/brewing/HICTERecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "HICTEPACK",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hictepack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HICTEPACKItem.java",
+          "src/main/resources/assets/hicte/models/item/hictepack.json"
+        ]
+      },
+      "path": "~/Items_with_utilities"
+    },
+    {
+      "name": "HICTEPACKRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hictepack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/hictepack_recipe.json"
+        ]
+      },
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "Botella",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "botella",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/botella.json",
+          "src/main/java/net/mcreator/hicte/item/BotellaItem.java"
+        ]
+      },
+      "path": "~/Items_for_Craft"
+    },
+    {
+      "name": "BotellaRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "botella_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/botella_recipe.json"
+        ]
+      },
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "Botellaconlogo",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "botellaconlogo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/BotellaconlogoItem.java",
+          "src/main/resources/assets/hicte/models/item/botellaconlogo.json"
+        ]
+      },
+      "path": "~/Items_for_Craft"
+    },
+    {
+      "name": "BotellaconlogoRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "botellaconlogo_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/botellaconlogo_recipe.json"
+        ]
+      },
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "ElHICTE",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "el_hicte",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/el_hicte.json",
+          "src/main/java/net/mcreator/hicte/item/ElHICTEItem.java"
+        ]
+      },
+      "path": "~/Items_with_utilities"
+    },
+    {
+      "name": "ELHICTERecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elhicte_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/recipes/brewing/ELHICTERecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "HICTEPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hicte_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/HICTEPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items_with_utilities/Items_Scripts"
+    },
+    {
+      "name": "HICTEPACKPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hictepack_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/HICTEPACKPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items_with_utilities/Items_Scripts"
+    },
+    {
+      "name": "ElHICTEPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "el_hicte_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/ElHICTEPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items_with_utilities/Items_Scripts"
+    },
+    {
+      "name": "EspadadelimonLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espadadelimon_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/EspadadelimonLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools/Tools_Script"
+    },
+    {
+      "name": "HICTESOSPECHOSO",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hictesospechoso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HICTESOSPECHOSOItem.java",
+          "src/main/resources/assets/hicte/models/item/hictesospechoso.json"
+        ]
+      },
+      "path": "~/Items_for_Craft"
+    },
+    {
+      "name": "SospechosoRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sospechoso_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/recipes/brewing/SospechosoRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "EspadadelimonRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espadadelimon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/espadadelimon_recipe.json"
+        ]
+      },
+      "path": "~/Items_for_Craft/Items_Recipes"
+    },
+    {
+      "name": "EspadaSospechosa",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espada_sospechosa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/espada_sospechosa.json",
+          "src/main/java/net/mcreator/hicte/item/EspadaSospechosaItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Cartonold",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cartonold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/CartonoldItem.java",
+          "src/main/resources/assets/hicte/models/item/cartonold.json"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft"
+    },
+    {
+      "name": "Plasticoold",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasticoold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/plasticoold.json",
+          "src/main/java/net/mcreator/hicte/item/PlasticooldItem.java"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft"
+    },
+    {
+      "name": "Galonold",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galonold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/GalonoldItem.java",
+          "src/main/resources/assets/hicte/models/item/galonold.json"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft"
+    },
+    {
+      "name": "GalonFullold",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galon_fullold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/GalonFulloldItem.java",
+          "src/main/resources/assets/hicte/models/item/galon_fullold.json"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft"
+    },
+    {
+      "name": "HICTEVACIOOLD",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hictevacioold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HICTEVACIOOLDItem.java",
+          "src/main/resources/assets/hicte/models/item/hictevacioold.json"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft"
+    },
+    {
+      "name": "Cartonoldrecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cartonoldrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/cartonoldrecipe.json"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft/Old_Items_Recipe"
+    },
+    {
+      "name": "PlasticooldRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasticoold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/plasticoold_recipe.json"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft/Old_Items_Recipe"
+    },
+    {
+      "name": "HICTEoldRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hict_eold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/hict_eold_recipe.json"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft/Old_Items_Recipe"
+    },
+    {
+      "name": "GalonoldRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galonold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/galonold_recipe.json"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft/Old_Items_Recipe"
+    },
+    {
+      "name": "GalonFulloldRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galon_fullold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hicte/recipes/galon_fullold_recipe.json"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft/Old_Items_Recipe"
+    },
+    {
+      "name": "HICTEold",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hict_eold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/hict_eold.json",
+          "src/main/java/net/mcreator/hicte/item/HICTEoldItem.java"
+        ]
+      },
+      "path": "~/Old_Items_with_utilities"
+    },
+    {
+      "name": "HICTEPACKold",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hictepac_kold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HICTEPACKoldItem.java",
+          "src/main/resources/assets/hicte/models/item/hictepac_kold.json"
+        ]
+      },
+      "path": "~/Old_Items_with_utilities"
+    },
+    {
+      "name": "ELHICTEold",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elhict_eold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/elhict_eold.json",
+          "src/main/java/net/mcreator/hicte/item/ELHICTEoldItem.java"
+        ]
+      },
+      "path": "~/Old_Items_with_utilities"
+    },
+    {
+      "name": "MODold",
+      "type": "tab",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mo_dold",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HICTEoldPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hict_eold_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/HICTEoldPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Old_Items_with_utilities/Items_Script_old"
+    },
+    {
+      "name": "HICTEPACKoldPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hictepac_kold_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/HICTEPACKoldPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Old_Items_with_utilities/Items_Script_old"
+    },
+    {
+      "name": "ELHICTEoldPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elhict_eold_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/ELHICTEoldPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Old_Items_with_utilities/Items_Script_old"
+    },
+    {
+      "name": "HICTEoldllenoRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hict_eoldlleno_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/recipes/brewing/HICTEoldllenoRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Old_Items_for_Craft/Old_Items_Recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.hicte.hicte": "HI-C TE",
+      "item.hicte.cartonold": "Carton old",
+      "item.hicte.galon_fullold": "Galon Full old",
+      "item.hicte.hictepac_kold": "HI-C TE PACK old",
+      "item.hicte.galonold": "Galon old",
+      "item.hicte.elhict_eold": "EL HI-C TE old",
+      "item.hicte.botella": "Botella",
+      "item.hicte.el_hicte": "El HI-C TE",
+      "item.hicte.espada_sospechosa": "Espada Sospechosa",
+      "itemGroup.tabmo_dold": "HI-C TE old",
+      "item.hicte.hictepack": "HI-C TE PACK",
+      "item.hicte.botellaconlogo": "Botella con logo",
+      "itemGroup.tabhi_c_te_mod": "HI-C TE",
+      "item.hicte.plastico": "Plastico",
+      "item.hicte.plasticoold": "Plastico old",
+      "item.hicte.hict_eold": "HI-C TE old",
+      "item.hicte.carton": "Carton",
+      "item.hicte.hictesospechoso": "HI-C TE sospechoso",
+      "item.hicte.hict_evacio": "HI-C TE vacio",
+      "item.hicte.hictevacioold": "HI-C TE vacio old"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items_for_Craft",
+        "children": [
+          {
+            "name": "Items_Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items_with_utilities",
+        "children": [
+          {
+            "name": "Items_Scripts",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Tools_Script",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Old_Items_for_Craft",
+        "children": [
+          {
+            "name": "Old_Items_Recipe",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Old_Items_with_utilities",
+        "children": [
+          {
+            "name": "Items_Script_old",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "hicte",
+    "modName": "Hicte",
+    "version": "1.0.0",
+    "author": "bisma, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.hicte",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300109612
+}

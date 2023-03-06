@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hicte:plasticoold"
+    },
+    "1": {
+      "item": "hicte:plasticoold"
+    },
+    "2": {
+      "item": "hicte:plasticoold"
+    },
+    "3": {
+      "item": "hicte:hict_eold"
+    },
+    "4": {
+      "item": "hicte:hict_eold"
+    },
+    "5": {
+      "item": "hicte:hict_eold"
+    },
+    "6": {
+      "item": "hicte:cartonold"
+    },
+    "7": {
+      "item": "hicte:cartonold"
+    },
+    "8": {
+      "item": "hicte:cartonold"
+    }
+  },
+  "result": {
+    "item": "hicte:hictepac_kold",
+    "count": 1
+  }
+}

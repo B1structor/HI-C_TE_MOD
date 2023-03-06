@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "hicte:espada_sospechosa"
+  },
+  "addition": {
+    "item": "hicte:elhict_eold"
+  },
+  "result": {
+    "item": "hicte:espadamuy_sospechosa"
+  }
+}
