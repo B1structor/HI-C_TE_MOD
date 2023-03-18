@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "CUSTOM:EspadaSospechosa"
+      "value": "Items.NETHERITE_SWORD"
     },
     "smithingInputAdditionStack": {
       "value": "CUSTOM:ELHICTEold"

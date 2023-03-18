@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "hicte:espada_sospechosa"
+    "item": "minecraft:netherite_sword"
   },
   "addition": {
     "item": "hicte:elhict_eold"

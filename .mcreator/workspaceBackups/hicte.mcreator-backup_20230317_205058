@@ -1,6 +1,61 @@
 {
   "mod_elements": [
     {
+      "name": "ElHICTEPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "el_hicte_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/ElHICTEPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items_with_utilities/Items_Scripts"
+    },
+    {
+      "name": "EspadadelimonLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espadadelimon_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/EspadadelimonLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools/Tools_Script"
+    },
+    {
+      "name": "EspadaSospechosa",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espada_sospechosa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hicte/models/item/espada_sospechosa.json",
+          "src/main/java/net/mcreator/hicte/item/EspadaSospechosaItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
       "name": "Cartonold",
       "type": "item",
       "sortid": 11,
@@ -362,6 +417,7 @@
       "item.hicte.hictepac_kold": "HI-C TE PACK old",
       "item.hicte.galonold": "Galon old",
       "item.hicte.elhict_eold": "EL HI-C TE old",
+      "item.hicte.espada_sospechosa": "Espada Sospechosa",
       "itemGroup.tabmo_dold": "HI-C TE old",
       "item.hicte.plasticoold": "Plastico old",
       "item.hicte.hict_eold": "HI-C TE old",
@@ -372,6 +428,15 @@
   "foldersRoot": {
     "name": "~",
     "children": [
+      {
+        "name": "Items_with_utilities",
+        "children": [
+          {
+            "name": "Items_Scripts",
+            "children": []
+          }
+        ]
+      },
       {
         "name": "Tools",
         "children": [

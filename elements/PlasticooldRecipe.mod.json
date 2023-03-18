@@ -2,42 +2,16 @@
   "_fv": 39,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
-    "xpReward": 0.0,
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.DRIED_KELP_BLOCK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.DRIED_KELP_BLOCK"
-      },
-      {
-        "value": "CUSTOM:Plastico"
-      },
-      {
-        "value": "Blocks.DRIED_KELP_BLOCK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.DRIED_KELP_BLOCK"
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "smeltingInputStack": {
+      "value": "Blocks.DRIED_KELP_BLOCK"
+    },
+    "smeltingReturnStack": {
       "value": "CUSTOM:Plasticoold"
     },
     "name": "plasticoold_recipe",

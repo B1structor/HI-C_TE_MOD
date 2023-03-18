@@ -20,7 +20,7 @@ public class EspadamuySospechosaItem extends SwordItem {
 	public EspadamuySospechosaItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 10;
+				return 2;
 			}
 
 			public float getSpeed() {

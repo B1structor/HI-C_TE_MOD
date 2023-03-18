@@ -10,19 +10,19 @@
       "item": "minecraft:paper"
     },
     "1": {
-      "item": "minecraft:paper"
+      "item": "minecraft:brown_dye"
     },
     "2": {
       "item": "minecraft:paper"
     },
     "3": {
-      "item": "hicte:carton"
+      "item": "minecraft:bamboo"
     },
     "4": {
-      "item": "hicte:carton"
+      "item": "minecraft:bamboo"
     },
     "5": {
-      "item": "hicte:carton"
+      "item": "minecraft:bamboo"
     },
     "6": {
       "item": "minecraft:paper"
@@ -36,6 +36,6 @@
   },
   "result": {
     "item": "hicte:cartonold",
-    "count": 2
+    "count": 1
   }
 }
